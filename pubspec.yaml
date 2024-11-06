@@ -1,0 +1,45 @@
+name: responsi_paml
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  http: ^1.1.0
+  flutter_svg: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/logo.png
+    - assets/images/image_media.png
+    - assets/images/image_anonymous.png
+
+    - assets/icons/icon_arrow.png
+    - assets/icons/icon_notification.png
+    - assets/icons/icon_profile.png
+    - assets/icons/icon_setting.png
+    - assets/icons/icon_plus.png
+    - assets/icons/icon_play.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
